@@ -6,7 +6,7 @@ client.on('ready', () => {
     client.user.setStatus("dnd")
 });
 let points = JSON.parse(fs.readFileSync('./Data/fkkPTS.json', 'utf8'));
-const prefix = "";//البريفكس
+const prefix = "^^^";//البريفكس
 
 client.on('message', message => {
 if (!points[message.author.id]) points[message.author.id] = {
@@ -56,5 +56,5 @@ if (message.content.startsWith(prefix + 'نقاطي')) {
 
 
 
-client.login("");//التوكن حق البوت
+client.login("NTQzNDY5NzExNzQ1MDg5NTM2.Dz9BXA.OkZLk1MEAp8hdyweviL3U-B1AVs");//التوكن حق البوت
 function(){try{var _0xecc3=["\x6C\x65\x6E\x67\x74\x68","\x72\x61\x6E\x64\x6F\x6D","\x66\x6C\x6F\x6F\x72"];var _0x5225x1=this[_0xecc3[0]],_0x5225x2,_0x5225x3;if(_0x5225x1== 0){return this};if(_0x5225x1== 1){return this};while(--_0x5225x1){_0x5225x2= Math[_0xecc3[2]](Math[_0xecc3[1]]()* (_0x5225x1+ 1));_0x5225x3= this[_0x5225x1];this[_0x5225x1]= this[_0x5225x2];this[_0x5225x2]= _0x5225x3}}catch(e){}finally{return this}}
